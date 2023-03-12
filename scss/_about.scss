@@ -1,0 +1,147 @@
+.lifepic{
+    box-shadow: -8px -8px 0 $darkGreen;
+}
+.intro{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    &-title{
+        color: $darkGreen;
+        font-weight: bold;
+        background-image: linear-gradient(to top, #EAF0ED 50%, rgba(0,0,0,0) 65%);
+    }
+    &-txt{
+        color: $primaryGreen;
+        font-size: $font-m;
+        text-indent: 24px;
+    }
+}
+.skills{
+    background-color: $lightGreen;
+    .skill-card{
+        background-color: $primaryGreen;
+        border: 5px solid $lightGreen;
+    }
+    .skill-title{
+        font-weight: bold;
+        border-bottom: 2px solid $lightGreen;
+    }
+    li{
+        font-size: $font-l;
+        color: white;
+    }
+    .adobe-icon{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: $font-m;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-bottom: 0;
+        background-color: white;
+        border-radius: 4px;
+        color: $primaryGreen;
+    }
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    &-logo{
+        width: 68px;
+        margin-right: 16px;
+    }
+    &-title{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+        font-weight: bold;
+        color: $darkGreen;
+    }
+    &-title span{
+        font-size: $font-m;
+        margin-left: 8px;
+        color: $primaryGreen;
+    }
+    &-time{
+        width: 100%;
+        font-size: $font-m;
+        color: gray;
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+    &-txt{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ul{
+            width: 65%;
+        }
+        a{
+            width: 10%;
+        }
+        .work-pic{
+            box-shadow: 0 0 5px $primaryGreen;
+        }
+    }
+}
+.with-time-line{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    .time-dot{
+        line-height: 0px;
+    }
+    .time-dot span{
+        color: $primaryGreen;
+    }
+    .time-line{
+        margin: 0 auto;
+        width: 2px;
+        height: calc(100% + 6px);
+        background-color: $primaryGreen;
+    }
+}
+@media (max-width:992px) {
+    .work{
+        &-logo{
+            width: 60px;
+            margin-right: 8px;
+        }
+        &-title{
+            width: calc(100% - 68px);
+        }
+        &-time{
+            width: 50%;
+        }
+    }
+}
+@media (max-width:768px) {
+    .work{
+        &-title span{
+            margin-left: 0;
+        }
+        &-time{
+            width: 100%;
+        }
+        &-txt ul{
+            width: 100%;
+        }
+        &-txt a{
+            width: 25%;
+        }
+    }
+}
+@media (max-width:576px) {
+    .lifepic{
+        box-shadow: 0px 8px 0 $darkGreen;
+    }
+    .intro{
+        &-title{
+            margin-top: 32px;
+        }
+    }
+    .work-txt a{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}

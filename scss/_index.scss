@@ -1,0 +1,30 @@
+.faver{
+    &-title{
+        background-image: linear-gradient(to top, #EAF0ED 50%, rgba(0,0,0,0) 65%);
+    }
+    &-text{
+        text-indent: 24px;
+    }
+    &-link .btn_icon{
+        margin-top: -10px;
+        transform: rotate(-135deg);
+        position: relative;
+        top: 6px;
+    }
+    &-tag{
+        padding: .25rem .75rem;
+        font-weight: bold;
+        color: $lightGreen;
+        background: $primaryGreen;
+    }
+}
+.paint{
+    background: $lightGreen;
+    &-block{
+        color: $lightGreen;
+        font-weight: bold;
+        font-size: $font-xl;
+        background: $darkGreen;
+    }
+
+}

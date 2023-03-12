@@ -1,0 +1,129 @@
+img{
+    width: 100%;
+}
+.header{
+    color: #fff;
+    background-image: url("../pic/banner.png");
+    background-size: cover;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+    &-photo{
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #fff;
+    }
+    &-title{
+        // font-size: $font-xl;
+        font-weight: bold;
+    }
+    .hambtn{
+        font-size: $font-xl;
+    }
+}
+.navbar{
+    display: flex;
+    padding: 0;
+    background: $lightGreen;
+    position: relative;
+    &-active{
+        border-bottom: 5px $darkGreen solid;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        padding: 8px 0;
+        position: relative;
+    }
+    a{
+        transition: all .3s ease;
+        padding: 8px 10px;
+    }
+    a:hover{
+        color:#fff;
+        font-weight: bold;
+        background-color: $darkGreen;
+        border-bottom: 5px $darkGreen solid;
+    }
+    .webname{
+        display: none;
+        color: #fff;
+        font-size: $font-l;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        height: 100%;
+        align-items: center;
+        padding: 15px;
+        background-color: $darkGreen;
+    }
+}
+.totop{
+    position: fixed;
+    font-size: $font-l;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: $primaryGreen;
+    background-color: $secondary;
+    right: 2%;
+    bottom: 4%;
+    padding-bottom: 5px;
+    transition: all .2s ease;
+    box-shadow: 0 0 5px black;
+    z-index: 2;
+    &:hover{
+        color: $lightGreen;
+        background-color: $darkGreen;
+    }
+    i ,span{
+        line-height: $font-m;
+    }
+}
+.footer{
+    background: $darkGreen;
+    &-link img{
+        height: 48px;
+    }
+}
+@media (max-width:768px) {
+    .navbar{
+        justify-content: center;
+        display: none;
+    }
+    .nav-toggle{
+        display: flex;
+        
+    }
+}
+@media (max-width:575px) {
+    .navbar{
+        justify-content: end;
+        a:hover{
+            color:$darkGreen;
+            font-weight: bold;
+            background-color: transparent;
+            border-bottom: 0px $darkGreen solid;
+        }
+    }
+    .navbar .navbar-active{
+        display: none;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        li{
+            width: 50%;
+        }
+    }
+    .navbar .webname{
+        display: flex;
+    }
+    
+}
+strong{
+    color: $darkGreen;
+}

@@ -1,0 +1,13 @@
+.paintpic-block {
+  margin-bottom: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: transparent;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .paintpic-block {
+    margin-bottom: 0.75rem;
+  }
+}
