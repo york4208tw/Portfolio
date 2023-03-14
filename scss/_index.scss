@@ -17,6 +17,7 @@
         color: $lightGreen;
         background: $primaryGreen;
         pointer-events: none;
+        top: 10%;
     }
 }
 .paint{
@@ -28,4 +29,12 @@
         background: $darkGreen;
     }
 
+}
+@media (max-width:576px) {
+    .faver{
+        &-tag{
+            width: 100%;
+            top: 0;
+        }
+    }
 }

@@ -1570,8 +1570,8 @@ $carousel-transition:                transform $carousel-transition-duration eas
 // scss-docs-end carousel-variables
 
 // scss-docs-start carousel-dark-variables
-$carousel-dark-indicator-active-bg:  $black !default;
-$carousel-dark-caption-color:        $black !default;
+$carousel-dark-indicator-active-bg:  $primary !default;//$black !default;
+$carousel-dark-caption-color:        $primary !default;//$black !default;
 $carousel-dark-control-icon-filter:  invert(1) grayscale(100) !default;
 // scss-docs-end carousel-dark-variables
 
