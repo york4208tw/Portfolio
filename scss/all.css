@@ -12359,6 +12359,10 @@ img {
 }
 .header-title {
   font-weight: bold;
+  pointer-events: none;
+}
+.header-text {
+  pointer-events: none;
 }
 .header .hambtn {
   font-size: 2rem;
@@ -12490,6 +12494,7 @@ strong {
   font-weight: bold;
   color: #EAF0ED;
   background: #3F5D45;
+  pointer-events: none;
 }
 
 .paint {

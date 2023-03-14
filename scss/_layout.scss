@@ -15,6 +15,10 @@ img{
     &-title{
         // font-size: $font-xl;
         font-weight: bold;
+        pointer-events: none;
+    }
+    &-text{
+        pointer-events: none;
     }
     .hambtn{
         font-size: $font-xl;
