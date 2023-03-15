@@ -5,6 +5,11 @@
     &-text{
         text-indent: 24px;
     }
+    &-link{
+        position: absolute;
+        bottom: 6%;
+        left: 3%;
+    }
     &-link .btn_icon{
         margin-top: -10px;
         transform: rotate(-135deg);
@@ -17,7 +22,7 @@
         color: $lightGreen;
         background: $primaryGreen;
         pointer-events: none;
-        top: 10%;
+        top: 6%;
     }
 }
 .paint{

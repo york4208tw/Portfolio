@@ -508,6 +508,10 @@
   top: 3% !important;
 }
 
+.top-6 {
+  top: 6% !important;
+}
+
 .top-10 {
   top: 10% !important;
 }
@@ -534,6 +538,10 @@
 
 .bottom-3 {
   bottom: 3% !important;
+}
+
+.bottom-6 {
+  bottom: 6% !important;
 }
 
 .bottom-10 {
@@ -564,6 +572,10 @@
   left: 3% !important;
 }
 
+.start-6 {
+  left: 6% !important;
+}
+
 .start-10 {
   left: 10% !important;
 }
@@ -590,6 +602,10 @@
 
 .end-3 {
   right: 3% !important;
+}
+
+.end-6 {
+  right: 6% !important;
 }
 
 .end-10 {
