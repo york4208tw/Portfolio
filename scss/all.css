@@ -12496,6 +12496,7 @@ strong {
 }
 .faver-text {
   text-indent: 24px;
+  font-size: 1.5rem;
 }
 .faver-link {
   position: absolute;
@@ -12527,6 +12528,16 @@ strong {
   background: #2C4832;
 }
 
+@media (max-width: 1200px) {
+  .faver-text {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .faver-text {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 576px) {
   .faver-tag {
     width: 100%;

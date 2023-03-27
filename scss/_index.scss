@@ -4,6 +4,7 @@
     }
     &-text{
         text-indent: 24px;
+        font-size: $font-l;
     }
     &-link{
         position: absolute;
@@ -34,6 +35,20 @@
         background: $darkGreen;
     }
 
+}
+@media (max-width: 1200px) {
+    .faver{
+        &-text{
+            font-size: $font-m;
+        }
+    }
+}
+@media (max-width:768px) {
+    .faver{
+        &-text{
+            font-size: $font-s;
+        }
+    }
 }
 @media (max-width:576px) {
     .faver{
